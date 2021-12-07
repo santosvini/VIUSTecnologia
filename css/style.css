@@ -11,7 +11,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-image: url('./img/workspace-gd795f07aa_1280.jpg');
+  background-image: url('../img/workspace-gd795f07aa_1280.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -36,7 +36,8 @@ h1 {
 }
 
 h1:hover {
-  color: gray;
+  color: black;
+  cursor: pointer;
 }
 
 p {
@@ -44,7 +45,12 @@ p {
   color: white;
 }
 
-input {
+p:hover{
+  color: black;
+  cursor: pointer;
+}
+
+/* input {
   width: 200px;
   height: 40px;
   background-color: #FAE12C;
@@ -53,8 +59,4 @@ input {
   border-radius: 5px;
   cursor: pointer;
   margin-top: 40px;
-}
-
-input:hover {
-  background-color: orange;
-}
+} */

@@ -4,15 +4,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/menu-hamburguer.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
   <title>ViUs</title>
 </head>
 <body>
   <main>
-    <h1>ViUs Tecnologia</h1>
-    <p>Developer Front-End & QA</p>
-    <a href="https://github.com/santosvini" target="_blank"><input type="button" value="Aboute Me"></a>
+  <h1>ViUs Tecnologia</h1>
+  <p>Developer Front-End & QA</p>
+  <input id="menu-hamburguer" type="checkbox">
+
+  <label for="menu-hamburguer">
+    <div class="menu">
+      <span class="hamburguer"></span>
+  </div>
+  </label>
+
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="https://github.com/santosvini" target="_blank"">About</a></li>
+    <li><a href="https://api.whatsapp.com/send?phone=5511956092628&text=Ol%C3%A1!%20Vinicius" target="_blank">Contact</a></li>
+    <li><a href="projects.html" target="_blank">Projects</a></li>
+  </ul>
   </main>
 </body>
 </html>
