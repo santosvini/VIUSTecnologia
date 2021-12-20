@@ -49,14 +49,23 @@ p:hover{
   color: black;
   cursor: pointer;
 }
+a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 47px;
+  text-decoration: none;
+}
 
-input {
-  width: 200px;
-  height: 40px;
-  background-color: #FAE12C;
-  font: 400 20px 'Montserrat', sans-serif;
-  border-style: none;
-  border-radius: 5px;
+aside > a {
+  position: absolute;
+  top: 94%;
+  left: 96%;
+  transform: translate(-50%, -50%);
+  font: bolder 24px 'Montserrat', sans-serif;
+  color: #fff;
+  background-color: transparent;
+  margin: 4px 0px;
   cursor: pointer;
-  margin-top: 40px;
 }
