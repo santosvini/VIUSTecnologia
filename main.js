@@ -1,5 +1,5 @@
 let name = String(prompt('Qual o seu nome: '))
-  if (name == null) {
+  if (!name) {
     alert('Queremos te conhecer')
   }else {
     alert("Olá, " + name)
