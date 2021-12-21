@@ -133,7 +133,7 @@ li > a:active {
 main > a {
   position: absolute;
   top: 94%;
-  left: 96%;
+  left: 94%;
   transform: translate(-50%, -50%);
   font: bolder 24px 'Montserrat', sans-serif;
   color: #fff;
