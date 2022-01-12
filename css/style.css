@@ -11,12 +11,13 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-image: url('../img/workspace-gd795f07aa_1280.jpg');
+  background-image: url('../img/laptop.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: #0009;
-  background-blend-mode: darken;
+  background-blend-mode: darken, luminosity;
+  backdrop-filter: blur(3px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +38,7 @@ h1 {
 }
 
 h1:hover {
-  color: black;
+  color: gray;
   cursor: pointer;
 }
 
@@ -48,7 +49,7 @@ p {
 }
 
 p:hover{
-  color: black;
+  color: gray;
   cursor: pointer;
 }
 

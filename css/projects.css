@@ -11,12 +11,14 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-image: url('../img/workspace-gd795f07aa_1280.jpg');
+  background-image: url('../img/laptop.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: #0009;
-  background-blend-mode: darken;
+  background-blend-mode: darken, luminosity;
+  backdrop-filter: blur(3px);
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,22 +27,22 @@ body {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 30px;
+  gap: 40px;
 }
 
-.titulo {
+/* .titulo {
   display: grid;
   grid-template-columns: 2;
   gap: 10px;
-}
+} */
 
-main {
+/* main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: right;
   gap: 30px;
-}
+} */
 
 h1 {
   font: 400 clamp(2.2rem, 6vw, 6.5rem) 'Montserrat', sans-serif;
@@ -49,19 +51,14 @@ h1 {
 }
 
 h1:hover {
-  color: black;
+  color: gray;
   cursor: pointer;
 }
 
-p {
+/* p {
   font: italic 400 clamp(1.2rem, 4vw, 3rem) 'Montserrat', sans-serif;
   color: white;
-}
-
-p:hover{
-  color: black;
-  cursor: pointer;
-}
+} */
 
 a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;

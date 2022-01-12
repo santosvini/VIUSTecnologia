@@ -15,12 +15,13 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-image: url('../img/workspace-gd795f07aa_1280.jpg');
+  background-image: url('../img/laptop.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: #0009;
-  background-blend-mode: darken;
+  background-blend-mode: darken, luminosity;
+  backdrop-filter: blur(3px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,7 +111,7 @@ ul {
   list-style: none;
   opacity: 1;
   transition: 0.25s 0.1s cubic-bezier(0, 1.07, 0, 1.02);
-  z-index: 2;
+  z-index: 1;
 }
 
 a {
@@ -123,7 +124,7 @@ a {
 }
 
 li > a:hover {
-  color: #0009;
+  color: gray;
 }
 
 li > a:active {

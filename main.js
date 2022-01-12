@@ -1,28 +1,14 @@
-let name = String(prompt('Qual o seu nome: '))
-  if (!name) {
-    alert('Queremos te conhecer')
-  }else {
-    alert("Olá, " + name)
-}
-
-var titulo = document.getElementById('h1')
-var cargo = document.getElementById('cargo')
-
-titulo.addEventListener('click', change)
-titulo.addEventListener('mouseenter', enter)
-cargo.addEventListener('click', out)
-cargo.addEventListener('mouseover', out)
-
+var title = document.getElementById('h1')
+var paragraph = document.getElementById('cargo')
 
 function change() {
-  titulo.innerHTML = `Seja Bem-Vindo, ${name}!`
+  title.innerHTML = `Seja Bem-Vindo!`
 }
 
-function enter() {
-  titulo.innerHTML = `Você está na ViUs`
+function changeParagraph() {
+  paragraph.innerHTML = 'Acompanhe nossos projetos!'
 }
 
-function out() {
-  cargo.innerHTML = `Não esqueça de acessar nosso menu,
-   ${name}!`
-}
+title.addEventListener('mouseenter', change)
+paragraph.addEventListener('mouseenter', changeParagraph)
+
